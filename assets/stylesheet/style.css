@@ -74,8 +74,8 @@ table {
     position: absolute;
 }
 .header{
-    position: absolute;
-    /* position: fixed; */
+    /* position: absolute; */
+    position: fixed;
     z-index: 30;
     /* top: -60px; */
     background-color: #FFFFFF;
@@ -85,6 +85,8 @@ table {
     margin-left: 120px;
     display: flex;
     justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.61);
+    border-radius: 2px;
 }
 .header-left{
     width: 16%;
@@ -527,6 +529,13 @@ table {
     font-weight: bolder;
 
 }
+#footer-btn-a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* gallery css starts */
 
 
 .gallery-container{
